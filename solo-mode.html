@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proftaak broswer API</title>
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+    <div class="popUp">
+        <form action="" id="names">
+            <label for="type">Choose a controller:</label>
+
+            <select name="type" id="type">
+                <option value="controller">Controller</option>
+                <option value="keyboard">Keyboard</option>
+            </select>
+
+            <label for="name"></label>
+            <input type="text" placeholder="Name" name="name" id="name" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="cover"></div>
+    <h2 id="start"></h2>
+    <h1 class="countdown-timer">10.00</h1>
+    <h1 class="center countdown"></h1>
+    <div class="container">
+        <div class="pokey-container"></div>
+        <button class="ready-button">Ready</button>
+    </div>
+    <div class="controller-container">
+        <div class="left-arrow"></div>
+    </div>
+    <script src="public/js/api.js"></script>
+    <script src="public/js/script.js"></script>
+</body>
+</html>
